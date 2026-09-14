@@ -41,5 +41,5 @@ ax.set_title('Operasyonun Röntgeni: Teslimat Süreleri Kutu Grafiği (Box Plot)
 ax.grid(axis='y', linestyle='--', alpha=0.7)
 
 # Grafiği kaydet
-fig.savefig('c:\\Users\\melik\\Desktop\\veri\\boxplot.png')
+fig.savefig('boxplot.png')
 print("Kutu grafiği (boxplot.png) başarıyla oluşturuldu ve kaydedildi.")

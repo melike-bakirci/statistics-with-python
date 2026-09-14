@@ -51,5 +51,5 @@ ax.set_title('Aykırı Değerin (Outlier) İncelenmesi: Teslimat Süreleri Kutu 
 ax.grid(axis='y', linestyle='--', alpha=0.7)
 
 # Grafiği kaydet
-fig.savefig('c:\\Users\\melik\\Desktop\\veri\\boxplot_outlier.png')
+fig.savefig('boxplot_outlier.png')
 print("Aykırı değerli kutu grafiği (boxplot_outlier.png) başarıyla oluşturuldu ve kaydedildi.")

@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 # Kategorik Veriler (3 Kategori)
 kategoriler = ['Lahmacun', 'Kebap', 'Çiğ Köfte']
-siparis_sayilari = [9, 7, 4] # Toplam 20
+siparis_sayilari = [9, 7, 4]
 
 fig, ax = plt.subplots(figsize=(8, 6))
 
@@ -26,6 +26,6 @@ ax.set_title('Yemek Kategorilerine Göre Sipariş Dağılımı (Kategorik Veri)'
 ax.grid(axis='y', linestyle='--', alpha=0.7)
 
 # Grafiği kaydet
-kayit_yolu = 'c:\\Users\\melik\\Desktop\\veri\\barchart_categories.png'
+kayit_yolu = 'barchart_categories.png'
 fig.savefig(kayit_yolu)
 print(f"Kategorik bar grafiği başarıyla oluşturuldu: {kayit_yolu}")

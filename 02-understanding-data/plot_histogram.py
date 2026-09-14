@@ -20,5 +20,5 @@ plt.title('Sipariş Süreleri Histogramı (4 Sınıf, 10 Birim Genişlik)')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 
 # Grafiği kaydet
-plt.savefig('c:\\Users\\melik\\Desktop\\veri\\histogram.png')
+plt.savefig('histogram.png')
 print("Histogram başarıyla oluşturuldu ve kaydedildi.")
