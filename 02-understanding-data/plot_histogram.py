@@ -35,7 +35,7 @@ plt.xlabel('Sipariş Süresi (Dakika)')
 plt.ylabel('Sipariş Sayısı (Frekans)')
 
 # Başlığı dinamik hale getiriyoruz
-plt.title(f'Sipariş Süreleri Histogramı ({k} Sınıf, {h} Birim Genişlik)')
+plt.title(f'Sipariş Süreleri Histogramı ({k} Sınıf, {h} Aralık Genişliği)')
 
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 
