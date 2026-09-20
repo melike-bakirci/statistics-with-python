@@ -8,6 +8,8 @@ s = pd.Series(data)
 
 # İstatistiksel özet
 summary = s.describe()
+mode_val = s.mode().tolist()
 
 print("Veri Seti İstatistiksel Özeti:\n")
 print(summary)
+print(f"Mod: {mode_val}")
