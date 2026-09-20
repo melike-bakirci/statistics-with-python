@@ -9,7 +9,9 @@ s = pd.Series(data)
 # İstatistiksel özet
 summary = s.describe()
 mode_val = s.mode().tolist()
+cv = (s.std() / s.mean()) * 100
 
 print("Veri Seti İstatistiksel Özeti:\n")
 print(summary)
 print(f"Mod: {mode_val}")
+print(f"Değişim Katsayısı (CV): %{cv:.2f}")
